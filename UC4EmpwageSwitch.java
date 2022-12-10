@@ -1,6 +1,6 @@
-package com.EmployeeWage;
+package empwage;
 
-public class EmpWageBuilderCasefor {
+public class UC4EmpwageSwitch {
     public static final int FULL_TIME = 1;
     public static final int PART_TIME = 2;
     public static final int EMP_RATE_PER_HOUR = 20;
@@ -27,6 +27,6 @@ public class EmpWageBuilderCasefor {
             totalEmpWage = empWage * NO_OF_WORKING_DAYS;
             System.out.println("Employee Wage is: " + empWage);
         }
-        System.out.println("Employee Wage is: " + totalEmpWage);
+        System.out.println("Total Employee Wage is: " + totalEmpWage);
     }
 }
